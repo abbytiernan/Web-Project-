@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'arial', sans-serif ;
+}
+body{
+    width: 100%;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(abby.jpg);
+    background-size: 100%;
+    background-position: center;
+    text-align: center;
+    color: ghostwhite;
+   
+}
+h1{
+    color: ghostwhite;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    background-color: hotpink;
+}
+p{
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: purple;
+    
+}
+button{
+    background-color: #ffa500;
+    color: white;  
+    padding: 12px 24px;
+    font-size: 16px; 
+    border-radius: 30px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   
+}
+.people-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 0;
+    padding: 20px; 
+    border-radius: 10px;
+
+}
+.people-container div {
+    padding: 15px;
+    background-color: #ffa500; 
+    color: whitesmoke;
+    border-radius: 8px; 
+    font-size: 18px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+footer{
+    background-color: hotpink;
+    color: ghostwhite;
+    text-align: center;
+}
+
